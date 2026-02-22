@@ -1,0 +1,16 @@
+[
+    {
+        "title": "My First Adventure",
+        "slug": "first-adventure",
+        "date": "February 22, 2024",
+        "excerpt": "A short update on how the journey started and what I've learned so far about the simple life.",
+        "category": "Life Update"
+    },
+    {
+        "title": "Wandering Through the Pines",
+        "slug": "pines",
+        "date": "February 15, 2024",
+        "excerpt": "Exploring the hidden trails of the Pacific Northwest and finding peace in the silence.",
+        "category": "Hiking"
+    }
+]

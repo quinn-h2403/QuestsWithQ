@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestsWithQ - My Travel Adventures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo">QuestsWithQ</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <h1>Adventure Awaits</h1>
+            <p>Documenting my journey through the simple life and wild places.</p>
+        </header>
+
+        <main>
+            <div id="post-list" class="post-list">
+                <!-- Posts are listed here. They are also loaded dynamically via app.js -->
+                <a href="post.html?slug=first-adventure" class="post-card">
+                    <div class="post-meta">February 22, 2024 &bull; Life Update</div>
+                    <h2>My First Adventure</h2>
+                    <p class="post-excerpt">A short update on how the journey started and what I've learned so far about
+                        the simple life.</p>
+                </a>
+
+                <a href="post.html?slug=pines" class="post-card">
+                    <div class="post-meta">February 15, 2024 &bull; Hiking</div>
+                    <h2>Wandering Through the Pines</h2>
+                    <p class="post-excerpt">Exploring the hidden trails of the Pacific Northwest and finding peace in
+                        the silence.</p>
+                </a>
+            </div>
+        </main>
+
+        <section id="about" style="padding: 4rem 0; text-align: center;">
+            <h2 style="margin-bottom: 2rem;">About QuestsWithQ</h2>
+            <p style="max-width: 600px; margin: 0 auto; color: #606c38;">
+                Welcome to my digital sanctuary. Here I share stories of travels,
+                musings on simple living, and updates from the road. Life is a quest,
+                and I'm happy to have you along for the ride.
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 QuestsWithQ. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
