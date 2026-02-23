@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <nav>
-            <a href="index.html" class="logo">QuestsWithQ</a>
+            <a href="index.html" class="logo">Quests<span>WithQ</span></a>
             <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="#about">About</a>
@@ -30,16 +30,16 @@
 
         <main>
             <div id="post-list" class="post-list">
-                <!-- Posts are listed here. They are also loaded dynamically via app.js -->
+                <!-- Posts are listed here -->
                 <a href="post.html?slug=first-adventure" class="post-card">
-                    <div class="post-meta">February 22, 2024 &bull; Life Update</div>
+                    <span class="post-meta">Life Update</span>
                     <h2>My First Adventure</h2>
                     <p class="post-excerpt">A short update on how the journey started and what I've learned so far about
                         the simple life.</p>
                 </a>
 
                 <a href="post.html?slug=pines" class="post-card">
-                    <div class="post-meta">February 15, 2024 &bull; Hiking</div>
+                    <span class="post-meta">Hiking</span>
                     <h2>Wandering Through the Pines</h2>
                     <p class="post-excerpt">Exploring the hidden trails of the Pacific Northwest and finding peace in
                         the silence.</p>
@@ -47,9 +47,9 @@
             </div>
         </main>
 
-        <section id="about" style="padding: 4rem 0; text-align: center;">
+        <section id="about" style="padding: 6rem 0; text-align: center;">
             <h2 style="margin-bottom: 2rem;">About QuestsWithQ</h2>
-            <p style="max-width: 600px; margin: 0 auto; color: #606c38;">
+            <p style="max-width: 600px; margin: 0 auto; color: var(--secondary); font-size: 1.1rem;">
                 Welcome to my digital sanctuary. Here I share stories of travels,
                 musings on simple living, and updates from the road. Life is a quest,
                 and I'm happy to have you along for the ride.
@@ -57,7 +57,9 @@
         </section>
 
         <footer>
-            <p>&copy; 2024 QuestsWithQ. All rights reserved.</p>
+            <div class="container">
+                <p>&copy; 2024 QuestsWithQ. All rights reserved.</p>
+            </div>
         </footer>
     </div>
 

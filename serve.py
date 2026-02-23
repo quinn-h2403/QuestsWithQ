@@ -3,7 +3,7 @@ import socketserver
 import webbrowser
 import os
 
-PORT = 8000
+PORT = 5173
 Handler = http.server.SimpleHTTPRequestHandler
 
 print(f"Starting server at http://localhost:{PORT}")
